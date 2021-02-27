@@ -2,12 +2,12 @@ function elem(id){
     return document.getElementById(id);
 }
 window.onload = () => {
-    Swal.fire("Intro","This game was made by MSN(Md Saadman Nuheen) in Sololearn","info");
-    Swal.fire({text:"You have 5 seconds to disarm the bomb",icon:"warning});
+    Swal.fire({text:"You have 5 seconds to disarm the bomb",icon:"warning",timer:3000,showCloseButton: false,showCancelButton: false,showConfirmButton:false});
     var p = elem("time");
+    p.style.fontSize = Number(window.clientWidth * 5 / 100) + 'px';
     var int;
     var min = 0;
-    var sec = 5;
+    var sec = 8;
     var msec = 0;
     int = setInterval(function(){
             p.innerHTML = min + ':' + sec + ':' + msec;
