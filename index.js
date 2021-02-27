@@ -4,7 +4,7 @@ function elem(id){
 window.onload = () => {
     Swal.fire({text:"You have 5 seconds to disarm the bomb",icon:"warning",timer:3000,showCloseButton: false,showCancelButton: false,showConfirmButton:false});
     var p = elem("time");
-    p.style.fontSize = '20px';
+    p.style.fontSize = '60px';
     var int;
     var min = 0;
     var sec = 8;
