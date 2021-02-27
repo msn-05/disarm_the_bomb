@@ -1,0 +1,40 @@
+body {
+    background-color:black;
+}
+h1 {
+    color:red;
+    text-align:center;
+    font-family: 'Red Rose', cursive;
+}
+#time {
+    font-family: 'Kalam', cursive;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-40%);
+    font-size:25px;
+    z-index:2;
+    background:black;
+    width:100px;
+    height:60px;
+    color:red;
+    text-align:center;
+}
+img {
+    width:100%;
+    z-index:0;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-35%);
+}
+#explode {
+    display:none;
+}
+#congo {
+    display:none;
+}
+b:hover {
+    background:red;
+    color:black;
+}
