@@ -2,12 +2,12 @@ function elem(id){
     return document.getElementById(id);
 }
 window.onload = () => {
-    Swal.fire({text:"You have 5 seconds to disarm the bomb",icon:"warning",timer:3000,showCloseButton: false,showCancelButton: false,showConfirmButton:false});
+    Swal.fire({text:"You have 8 seconds to disarm the bomb",icon:"warning",timer:3000,showCloseButton: false,showCancelButton: false,showConfirmButton:false});
     var p = elem("time");
     p.style.fontSize = '60px';
     var int;
     var min = 0;
-    var sec = 8;
+    var sec = 11;
     var msec = 0;
     int = setInterval(function(){
             p.innerHTML = min + ':' + sec + ':' + msec;
