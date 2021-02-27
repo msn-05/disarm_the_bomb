@@ -28,7 +28,7 @@ document.body.removeChild(elem("cont"));
            elem("explode").style.display = "block";
            navigator.vibrate(700);
            setTimeout(function(){
-               Swal.fire("Boom!","You failed to stop the bomb","error");
+               Swal.fire("Boom!","You failed to stop the bomb\nReload to try again.","error");
            },1000);}
         },10);
         elem("b").onclick = function(){
