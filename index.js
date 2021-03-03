@@ -2,6 +2,7 @@ function elem(id){
     return document.getElementById(id);
 }
 window.onload = () => {
+    alert('This game was made by MSN(Mohammad Saadman Nuheen) in Sololearn')
     Swal.fire({text:"You have 8 seconds to disarm the bomb",icon:"warning",timer:3000,showCloseButton: false,showCancelButton: false,showConfirmButton:false});
     var p = elem("time");
     p.style.fontSize = '60px';
